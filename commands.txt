@@ -1,0 +1,5 @@
+npm install -g @angular/cli@17
+$ ng new ecommerce-angular --routing --standalone=false --style=css
+cd ecommerce-angular
+npm install -D tailwindcss@^3.4.0 postcss autoprefixer
+npx tailwindcss init
